@@ -1,9 +1,14 @@
 package com.example.krishnaveni.automobile;
 
 import android.content.Context;
+import android.database.Cursor;
+import android.database.MatrixCursor;
+import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import java.util.ArrayList;
 
 /**
  * Created by KRISHNAVENI on 2017-10-11.
@@ -24,9 +29,8 @@ public class AutomobileDatabaseHelper extends SQLiteOpenHelper {
     }
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "CREATE TABLE "+TABLE_NAME  + "( _ID INTEGER PRIMARY KEY AUTOINCREMENT, " + KEY_LITER +" LONG,"+ KEY_PRICE + " LONG,"+KEY_KILOMETER+" LONG))";
+        String sql = "CREATE TABLE "+TABLE_NAME  + "( _ID INTEGER PRIMARY KEY AUTOINCREMENT, " + KEY_LITER +" LONG,"+ KEY_PRICE + " LONG,"+KEY_KILOMETER+" LONG)";
         Log.i("AutoMobileDBHelper", "Calling onCreate");
-
         db.execSQL(sql);}
 
     @Override
@@ -35,5 +39,6 @@ public class AutomobileDatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " +TABLE_NAME);
         onCreate(db);
     }
+
 }
 
