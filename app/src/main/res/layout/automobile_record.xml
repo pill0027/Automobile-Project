@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/tabla_cuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dbid"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="1"></TextView>
+
+        <TextView
+                android:id="@+id/ltrs"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:text="1"></TextView>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:text="2"></TextView>
+
+            <TextView
+                android:id="@+id/km"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:text="3"></TextView>
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:text="3"></TextView>
+        <ImageView
+            android:id="@+id/editImage"
+            android:layout_width="28dp"
+            android:layout_height="20dp"
+            android:padding="0dp"
+            android:src="@drawable/edit" />
+        <ImageView
+            android:id="@+id/deleteImage"
+            android:layout_width="28dp"
+            android:layout_height="19dp"
+            android:padding="0dp"
+            android:src="@drawable/delete" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

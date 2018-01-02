@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">ऑटोमोबाइल</string>
+    <string name="id">पहचान</string>
+    <string name="liters">लीटर</string>
+    <string name="price">मूल्य</string>
+    <string name="km">किलोमीटर</string>
+    <string name="time">पहर</string>
+    <string name="ok">ठीक</string>
+    <string name="cancle">रद्द करना</string>
+    <string name="kilometers">किलोमीटर</string>
+    <string name="average_gasoline_price_last_month">औसत गैसोलीन मूल्य पिछले महीने</string>
+    <string name="total_gasoline_purchased_last_month">कुल गैसोलीन खरीदा पिछले महीने</string>
+    <string name="total_gasoline_purchased">कुल गैसोलीन खरीदा</string>
+    <string name="delete_msg">आपका आइटम सफलतापूर्वक हटा दिया गया है</string>
+    <string name="item_edited">आइटम सफलतापूर्वक संपादित किया गया</string>
+    <string name="delete_record">ऑटोमोबाईल रिकॉर्ड हटाए</string>
+    <string name="r_sure">क्या आप आश्वस्त हैं ?</string>
+   </resources>

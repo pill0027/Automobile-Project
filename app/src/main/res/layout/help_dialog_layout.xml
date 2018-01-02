@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gasicon"
+        android:layout_below="@+id/image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toEndOf="@+id/image"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Author: Krishnaveni Pillai" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/image"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Version: 1.0.0" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/image"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Product Overview \n\n\n
+        This application allows the user to add Gasoline\n
+        and mileage details and provides the monthly\n
+        average gas price and fuel consumption\n
+\n
+       On the landing page there is list view of all the\n
+        previous data records\n
+\n
+        On each data row there is Delete and Edit button to\n
+        delete and edit fuel consumtion records.\n
+\n
+        Option to add new fuel consumption data\n\n
+
+       Dashboard provides previous monthly average\n\n
+        Spinner to check the monthly fuel consumption.\n"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="visible" />
+</RelativeLayout>
