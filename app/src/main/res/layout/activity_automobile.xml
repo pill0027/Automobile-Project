@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/dashboard_fragment"
+            android:name="com.example.krishnaveni.automobile.DashBoardFragment"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:gravity="top" />
+
+        <fragment
+            android:id="@+id/listview_fragment"
+            android:name="com.example.krishnaveni.automobile.ListViewFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom" />
+    </LinearLayout>

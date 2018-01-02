@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Automobile</string>
+    <string name="id">Id</string>
+    <string name="liters">Liters</string>
+    <string name="price">Price</string>
+    <string name="km">Km</string>
+    <string name="time">Time</string>
+    <string name="ok">OK</string>
+    <string name="cancle">Cancle</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="average_gasoline_price_last_month">Average Gasoline Price Last Month</string>
+    <string name="total_gasoline_purchased_last_month">Total Gasoline Purchased Last Month</string>
+    <string name="total_gasoline_purchased">Total Gasoline Purchased</string>
+    <string name="delete_msg">Item successfully deleted</string>
+    <string name="item_edited">Item successfully edited</string>
+    <string name="delete_record">Delete Automobile Record</string>
+    <string name="r_sure">Are you sure?</string>
 </resources>

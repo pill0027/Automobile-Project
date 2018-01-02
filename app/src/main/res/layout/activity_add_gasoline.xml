@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.krishnaveni.automobile.AddGasoline">
+    android:layout_height="match_parent">
     <TableLayout
         android:layout_width="368dp"
         android:layout_height="495dp"
@@ -18,7 +17,7 @@
                 android:id="@+id/litresLabel"
                 android:layout_width="158dp"
                 android:layout_height="35dp"
-                android:text="Liters"
+                android:text="@string/liters"
                 tools:layout_editor_absoluteX="184dp"
                 tools:layout_editor_absoluteY="16dp" />
         <EditText
@@ -26,7 +25,7 @@
             android:layout_width="101dp"
             android:layout_height="53dp"
             android:ems="10"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:text="0.0"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="9dp" />
@@ -38,7 +37,7 @@
                 android:id="@+id/priceLabel"
                 android:layout_width="155dp"
                 android:layout_height="24dp"
-                android:text="Price"
+                android:text="@string/price"
                 tools:layout_editor_absoluteX="184dp"
                 tools:layout_editor_absoluteY="117dp" />
             <EditText
@@ -46,7 +45,7 @@
                 android:layout_width="104dp"
                 android:layout_height="38dp"
                 android:ems="10"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:text="0.0"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="125dp" />
@@ -58,7 +57,7 @@
                 android:id="@+id/kilometersLabel"
                 android:layout_width="149dp"
                 android:layout_height="37dp"
-                android:text="Kilometers"
+                android:text="@string/kilometers"
                 tools:layout_editor_absoluteX="184dp"
                 tools:layout_editor_absoluteY="201dp" />
             <EditText
@@ -66,7 +65,7 @@
                 android:layout_width="117dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:text="0.0"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="199dp" />
@@ -78,16 +77,16 @@
                 android:id="@+id/okButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="OK"
+                android:text="@string/ok"
                 tools:layout_editor_absoluteX="64dp"
                 tools:layout_editor_absoluteY="289dp" />
             <Button
                 android:id="@+id/cancle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cancle"
+                android:text="@string/cancle"
                 tools:layout_editor_absoluteX="193dp"
                 tools:layout_editor_absoluteY="289dp" />
         </TableRow>
     </TableLayout>
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
